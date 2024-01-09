@@ -2,75 +2,90 @@
 <html>
     <head>
         <title>About Me</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="navbar">
-            <h1>Kleition Bendo</h1>
-            <a href="home.html">About Me</a>
-            <a href="contact.html">Contact Me</a>
-            <a href="social.html">Social</a>
-            <a href="other.html">Other</a>
+            <h1 class="toolbar-name">Kleition Bendo</h1>
+            <a href="home.html" class="toolbar-link">About Me</a>
+            <a href="contact.html" class="toolbar-link">Contact Me</a>
+            <a href="social.html" class="toolbar-link">Social</a>
+            <a href="other.html" class="toolbar-link">Other</a>
         </div>
 
-        <div>
-            <img src="profile.jpg" alt="Profile Pic">
-            <h1>Coding Your Ideas into Reality</h1>
+        <div class="img-container">
+            <img src="profile.jpg" alt="Profile Pic" class="main-image">
+            <h1 class="bottom-left">Coding Your Ideas into Reality</h1>
         </div>
 
-        <h2>Background</h2>
-        <p>Hi there! I'm Klei. Originally from the beautiful contry of Albania,
-            I now live and work in USA. I'm your go-to guy for all things web development.
-            With a toolbelt packed with languages like Java, Python and JavaScript, and a knack for
-            HTML and CSS, I love turning ideas into beautiful, functional websites.</p>
-        <p>I'm also into the techy side of things, playing around with Kubernetes and deploying
-            projects on AWS. I believe in making the web a better place, one line of code at a time.</p>
-        <p>Whether you've got a tech question, need a website, want to offer a job, or just want to say hi, I'm here.
-            Let's make something awesome together!</p>
-
-        <h2>Education</h2>
-        <p>My passion for technology started back in Albania at the Harry Fultz Institute, where I dived
-            into the world of Electronics. It was like opening a door to a world of circuits, systems and
-            coding, and I was hooked!</p>
-
-        <p>Fast forward a bit, and I found myself at the University of Maine in the USA, chasing my passion
-            for coding and web development. I graduated with a Bachelor's degree in Computer Science,
-            and with a ton of knowledge and eagerness to make a mark in the tech world.</p>
-
-        <p>My education has been a mix of hands-on experience and academic learning. If you're curios about more details
-            or how my journey has shaped my professional skills, feel free to reach out. I'm always up for a chat about tech,
-            education, or potential opportunities!</p>
-
-        <h2>Projects</h2>
-        <p>Each project is a story of challenges, learning, and, of course, fun coding.
-        </p>
-
-        <div>
-            <h3>University Capstone Project: The Meeting Scheduler</h3>
-            <ul>
-                <li>Tech Used: Python, Django</li>
-                <li>The Challenge: To create a user-friendly, efficient meeting scheduler
-                for a busy school lab.
-                </li>
-                <li>Solution: A custom-built website designed from the ground up using Python and Django.
-                This scheduler streamlined the process of booking lab meetings,  making life easier for students and staff alike.
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h3>Financial Institutions Spring Boot Applications</h3>
-            <ul>
-                <li>Tech Used: Java(Spring Boot), Angular, React</li>
-                <li>The Mission: Develop robust, full-stack applications for various
-                    financial institutions.
-                </li>
-                <li>Approach: By leveraging the power and security of Java Spring Boot for the backend and API creation,
-                    and using Angular and React for dynamic, responsive frontends. These applications enhanced financial operations,
-                    offering secure and seamless user experiences and robust functionalities.
-                </li>
-            </ul>
+        <div class="page1-background">
+            <h2 style="font-size: 50px;">Background</h2>
+            <div class="page1-background-paragraphs">
+                <p>Hi there! I'm Klei. Originally from the beautiful contry of Albania,
+                    I now live and work in USA. I'm your go-to guy for all things web development.
+                    With a toolbelt packed with languages like Java, Python and JavaScript, and a knack for
+                    HTML and CSS, I love turning ideas into beautiful, functional websites.</p>
+                <p>I'm also into the techy side of things, playing around with Kubernetes and deploying
+                    projects on AWS. I believe in making the web a better place, one line of code at a time.</p>
+                <p>Whether you've got a tech question, need a website, want to offer a job, or just want to say hi, I'm here.
+                    Let's make something awesome together!</p>
+            </div>
         </div>
 
-        <p>Curious about the nitty-gritty details? Feel free to dive into my resume in the <a href="social.html">Social</a> section
-        for more insights!</p>
+        <div class="page1-education">
+            <h2 style="font-size: 50px;">Education</h2>
+            <div class="page1-education-paragraphs">
+                <p>My passion for technology started back in Albania at the Harry Fultz Institute, where I dived
+                    into the world of Electronics. It was like opening a door to a world of circuits, systems and
+                    coding, and I was hooked!</p>
+
+                <p>Fast forward a bit, and I found myself at the University of Maine in the USA, chasing my passion
+                    for coding and web development. I graduated with a Bachelor's degree in Computer Science,
+                    and with a ton of knowledge and eagerness to make a mark in the tech world.</p>
+
+                <p>My education has been a mix of hands-on experience and academic learning. If you're curios about more details
+                    or how my journey has shaped my professional skills, feel free to reach out. I'm always up for a chat about tech,
+                    education, or potential opportunities!</p>
+            </div>
+        </div>
+
+        <div class="page1-projects">
+            <h2 style="font-size: 50px;">Projects</h2>
+
+            <div class="page1-projects-content">
+                <p>Each project is a story of challenges, learning, and, of course, fun coding.
+                </p>
+
+                <div>
+                    <h3>University Capstone Project: The Meeting Scheduler</h3>
+                    <ul>
+                        <li>Tech Used: Python, Django</li>
+                        <li>The Challenge: To create a user-friendly, efficient meeting scheduler
+                        for a busy school lab.
+                        </li>
+                        <li>Solution: A custom-built website designed from the ground up using Python and Django.
+                        This scheduler streamlined the process of booking lab meetings,  making life easier for students and staff alike.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Financial Institutions Spring Boot Applications</h3>
+                    <ul>
+                        <li>Tech Used: Java(Spring Boot), Angular, React</li>
+                        <li>The Mission: Develop robust, full-stack applications for various
+                            financial institutions.
+                        </li>
+                        <li>Approach: By leveraging the power and security of Java Spring Boot for the backend and API creation,
+                            and using Angular and React for dynamic, responsive frontends. These applications enhanced financial operations,
+                            offering secure and seamless user experiences and robust functionalities.
+                        </li>
+                    </ul>
+                </div>
+
+                <p>Curious about the nitty-gritty details? Feel free to dive into my resume in the <a href="social.html">Social</a> section
+                for more insights!</p>
+            </div>
+
+        </div>
     </body>
 </html>
